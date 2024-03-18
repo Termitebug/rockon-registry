@@ -4,6 +4,7 @@
             "airsonic-advanced": {
                 "image": "linuxserver/airsonic-advanced",
                 "launch_order": 1,
+		"opts": [ ["--device", "host"] ],
                 "ports": {
                     "4040": {
                         "description": "Webserver Port. Required default: 4040.",
@@ -64,4 +65,9 @@
         "website": "https://airsonic.github.io/",
         "version": "2.1"
     }
+	{
+  "description": "Jukebox path to sound device (/dev/snd)>",
+  "label": "/dev/snd",
+  "index": 1
+}
 	}
