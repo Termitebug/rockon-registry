@@ -61,13 +61,13 @@
         "ui": {
             "slug": ""
         },
-        "volume_add_support": true,
-        "website": "https://airsonic.github.io/",
-        "version": "2.1"
-    	}
 	{
   	"description": "Jukebox path to sound device (/dev/snd)>",
   	"label": "/dev/snd",
   	"index": 1
-	}
-	}
+	},
+        "volume_add_support": true,
+        "website": "https://airsonic.github.io/",
+        "version": "2.1"
+    	}
+}
