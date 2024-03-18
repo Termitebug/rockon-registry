@@ -61,7 +61,7 @@
         "ui": {
             "slug": ""
         },
-	{
+	"devices": {
   	"description": "Jukebox path to sound device (/dev/snd)>",
   	"label": "/dev/snd",
   	"index": 1
