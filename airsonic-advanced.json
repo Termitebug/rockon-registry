@@ -54,7 +54,7 @@
                         "index": 3,
                         "default": 100
                     }
-                }
+                },
 		 "devices": {
   			"description": "Jukebox path to sound device (/dev/snd)>",
   			"label": "/dev/snd",
