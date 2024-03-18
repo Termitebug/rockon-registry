@@ -55,17 +55,17 @@
                         "default": 100
                     }
                 }
+		 "devices": {
+  			"description": "Jukebox path to sound device (/dev/snd)>",
+  			"label": "/dev/snd",
+  			"index": 1
+		}   
             }
         },
         "description": "Airsonic music server. <p>Based on a custom docker image: <a href='https://hub.docker.com/r/linuxserver/airsonic-advanced' target='_blank'>https://hub.docker.com/r/linuxserver/airsonic-advanced</a>, available for x86-64 and arm64 architectures.</p>",
         "ui": {
             "slug": ""
-        },
-	"devices": {
-  	"description": "Jukebox path to sound device (/dev/snd)>",
-  	"label": "/dev/snd",
-  	"index": 1
-	},
+        }
         "volume_add_support": true,
         "website": "https://airsonic.github.io/",
         "version": "2.1"
